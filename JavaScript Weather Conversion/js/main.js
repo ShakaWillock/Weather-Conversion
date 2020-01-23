@@ -8,9 +8,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     let userInput = document.querySelector('#inputCels').value;
-
     fahrenheitOutput.innerHTML = (userInput * 9/5 + 32) + '&#8457';
-
     form.reset();
-   
 });
